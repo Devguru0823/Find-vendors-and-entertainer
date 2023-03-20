@@ -1,0 +1,1995 @@
+{
+    "dup_type": "lite",
+    "created": "2023-01-26 07:45:01",
+    "version_dup": "1.5.1",
+    "version_wp": "5.9.5",
+    "version_db": "10.3.37",
+    "version_php": "7.4.33",
+    "version_os": "Linux",
+    "blogname": "Vendor Flock",
+    "exportOnlyDB": 0,
+    "secure_on": false,
+    "secure_pass": "$2a$08$nu36eegMB8xeCdGxXFf\/v.atb9DX2Jp1gvpgZsfyCT5O6GJ05WOzS",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "dbpass": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "vendorflock.com",
+            "path": "\/",
+            "blogname": "Vendor Flock",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "id": "1",
+                    "user_login": "admin"
+                },
+                {
+                    "id": "357",
+                    "user_login": "Demo"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/vendorflock.com",
+            "fullSiteUrl": "https:\/\/vendorflock.com",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/vendorflock\/public_html\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/vendorflock\/public_html\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/vendorflock.com\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "dbInfo": {
+        "buildMode": "PHP",
+        "charSetList": [
+            "utf8mb4",
+            "utf8",
+            "latin1"
+        ],
+        "collationList": [
+            "latin1_swedish_ci",
+            "utf8_general_ci",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "MyISAM",
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "vendorflock_wp663",
+        "tablesBaseCount": 172,
+        "tablesFinalCount": 172,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 98667,
+        "tablesSizeOnDisk": 37766376,
+        "tablesList": {
+            "wp_actionscheduler_actions": {
+                "inaccurateRows": 104,
+                "insertedRows": 104,
+                "size": 72132
+            },
+            "wp_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 3086
+            },
+            "wp_actionscheduler_groups": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 9340
+            },
+            "wp_actionscheduler_logs": {
+                "inaccurateRows": 293,
+                "insertedRows": 293,
+                "size": 35912
+            },
+            "wp_addonlibrary_addons": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_addonlibrary_categories": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_bds_locations": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 2448
+            },
+            "wp_bpvt": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 2168
+            },
+            "wp_bpvtop": {
+                "inaccurateRows": 11,
+                "insertedRows": 11,
+                "size": 2268
+            },
+            "wp_bpvt_vendor_data": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_bp_activity": {
+                "inaccurateRows": 20,
+                "insertedRows": 20,
+                "size": 28876
+            },
+            "wp_bp_activity_meta": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 10372
+            },
+            "wp_bp_friends": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_bp_invitations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp_bp_messages_messages": {
+                "inaccurateRows": 100,
+                "insertedRows": 100,
+                "size": 40272
+            },
+            "wp_bp_messages_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp_bp_messages_notices": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_bp_messages_recipients": {
+                "inaccurateRows": 295,
+                "insertedRows": 295,
+                "size": 40889
+            },
+            "wp_bp_notifications": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp_bp_notifications_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp_bp_xprofile_data": {
+                "inaccurateRows": 47,
+                "insertedRows": 47,
+                "size": 6900
+            },
+            "wp_bp_xprofile_fields": {
+                "inaccurateRows": 317,
+                "insertedRows": 317,
+                "size": 54604
+            },
+            "wp_bp_xprofile_groups": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 3168
+            },
+            "wp_bp_xprofile_meta": {
+                "inaccurateRows": 134,
+                "insertedRows": 134,
+                "size": 22360
+            },
+            "wp_cli_cookie_scan": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_cli_cookie_scan_categories": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp_cli_cookie_scan_cookies": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp_cli_cookie_scan_url": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_cli_scripts": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 2516
+            },
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 41580
+            },
+            "wp_eum_logs": {
+                "inaccurateRows": 13,
+                "insertedRows": 13,
+                "size": 4548
+            },
+            "wp_ig_actions": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 7384
+            },
+            "wp_ig_blocked_emails": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_ig_campaigns": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 8932
+            },
+            "wp_ig_contactmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp_ig_contacts": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 6488
+            },
+            "wp_ig_contacts_ips": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_ig_contact_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp_ig_custom_fields": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_ig_forms": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 3260
+            },
+            "wp_ig_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp_ig_lists": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 2144
+            },
+            "wp_ig_lists_contacts": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 3248
+            },
+            "wp_ig_mailing_queue": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 4012
+            },
+            "wp_ig_queue": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp_ig_sending_queue": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 2440
+            },
+            "wp_ig_temp_import": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_ig_unsubscribe_feedback": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_ig_wc_cart": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp_ig_wc_guests": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp_ig_workflows": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 4780
+            },
+            "wp_ig_workflows_queue": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_login_redirects": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 2088
+            },
+            "wp_options": {
+                "inaccurateRows": 962,
+                "insertedRows": 962,
+                "size": 4139776
+            },
+            "wp_pmpro_discount_codes": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 5272
+            },
+            "wp_pmpro_discount_codes_levels": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 3396
+            },
+            "wp_pmpro_discount_codes_uses": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 4138
+            },
+            "wp_pmpro_memberships_categories": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 3085
+            },
+            "wp_pmpro_memberships_pages": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_pmpro_memberships_users": {
+                "inaccurateRows": 63,
+                "insertedRows": 63,
+                "size": 12992
+            },
+            "wp_pmpro_membership_levelmeta": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 6344
+            },
+            "wp_pmpro_membership_levels": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 7528
+            },
+            "wp_pmpro_membership_ordermeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp_pmpro_membership_orders": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 17200
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 7421,
+                "insertedRows": 7421,
+                "size": 14257216
+            },
+            "wp_posts": {
+                "inaccurateRows": 1820,
+                "insertedRows": 1820,
+                "size": 4445176
+            },
+            "wp_redirection_404": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp_redirection_groups": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 4192
+            },
+            "wp_redirection_items": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 17588
+            },
+            "wp_redirection_logs": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_css": {
+                "inaccurateRows": 115,
+                "insertedRows": 115,
+                "size": 97216
+            },
+            "wp_revslider_css_bkp": {
+                "inaccurateRows": 47,
+                "insertedRows": 47,
+                "size": 15992
+            },
+            "wp_revslider_layer_animations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_layer_animations_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_navigations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_navigations_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_sliders": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 41740
+            },
+            "wp_revslider_sliders_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_slides": {
+                "inaccurateRows": 11,
+                "insertedRows": 11,
+                "size": 236136
+            },
+            "wp_revslider_slides_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_revslider_static_slides": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 14800
+            },
+            "wp_revslider_static_slides_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_re_lat_lng": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_rt_rtm_activity": {
+                "inaccurateRows": 9,
+                "insertedRows": 9,
+                "size": 4357
+            },
+            "wp_rt_rtm_api": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_rt_rtm_media": {
+                "inaccurateRows": 22,
+                "insertedRows": 22,
+                "size": 14164
+            },
+            "wp_rt_rtm_media_interaction": {
+                "inaccurateRows": 15,
+                "insertedRows": 15,
+                "size": 2600
+            },
+            "wp_rt_rtm_media_meta": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 2312
+            },
+            "wp_sendpress_autoresponders": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_sendpress_connections": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_sendpress_customfields": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_sendpress_list_subscribers": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_sendpress_queue": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp_sendpress_schedules": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_sendpress_subscribers": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp_sendpress_subscribers_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp_sendpress_subscribers_status": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 2136
+            },
+            "wp_sendpress_subscribers_tracker": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_sendpress_subscribers_url": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_sendpress_url": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp_signups": {
+                "inaccurateRows": 222,
+                "insertedRows": 222,
+                "size": 255700
+            },
+            "wp_strong_views": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 5140
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 10276
+            },
+            "wp_terms": {
+                "inaccurateRows": 50,
+                "insertedRows": 50,
+                "size": 15396
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 38,
+                "insertedRows": 38,
+                "size": 3870
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 50,
+                "insertedRows": 50,
+                "size": 8948
+            },
+            "wp_tg_item_elements": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_tg_item_skins": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 410,
+                "insertedRows": 410,
+                "size": 90768
+            },
+            "wp_users": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 9200
+            },
+            "wp_wc_admin_notes": {
+                "inaccurateRows": 95,
+                "insertedRows": 95,
+                "size": 45348
+            },
+            "wp_wc_admin_note_actions": {
+                "inaccurateRows": 109,
+                "insertedRows": 109,
+                "size": 24540
+            },
+            "wp_wc_category_lookup": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 2065
+            },
+            "wp_wc_customer_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp_wc_download_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wc_order_coupon_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wc_order_product_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wc_order_stats": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp_wc_order_tax_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wc_product_attributes_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wc_product_download_directories": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 9384
+            },
+            "wp_wc_product_meta_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 4096
+            },
+            "wp_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wc_tax_rate_classes": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 9288
+            },
+            "wp_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wfblockediplog": {
+                "inaccurateRows": 100,
+                "insertedRows": 100,
+                "size": 8964
+            },
+            "wp_wfblocks7": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 5332
+            },
+            "wp_wfconfig": {
+                "inaccurateRows": 260,
+                "insertedRows": 260,
+                "size": 437824
+            },
+            "wp_wfcrawlers": {
+                "inaccurateRows": 10,
+                "insertedRows": 10,
+                "size": 2888
+            },
+            "wp_wffilechanges": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wffilemods": {
+                "inaccurateRows": 39862,
+                "insertedRows": 39862,
+                "size": 7683984
+            },
+            "wp_wfhits": {
+                "inaccurateRows": 379,
+                "insertedRows": 379,
+                "size": 179416
+            },
+            "wp_wfhoover": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wfissues": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 12180
+            },
+            "wp_wfknownfilelist": {
+                "inaccurateRows": 39862,
+                "insertedRows": 39862,
+                "size": 3988720
+            },
+            "wp_wflivetraffichuman": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wflocs": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 2132
+            },
+            "wp_wflogins": {
+                "inaccurateRows": 2003,
+                "insertedRows": 2003,
+                "size": 402032
+            },
+            "wp_wfls_2fa_secrets": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wfls_settings": {
+                "inaccurateRows": 19,
+                "insertedRows": 19,
+                "size": 16384
+            },
+            "wp_wfnotifications": {
+                "inaccurateRows": 15,
+                "insertedRows": 15,
+                "size": 5420
+            },
+            "wp_wfpendingissues": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wfreversecache": {
+                "inaccurateRows": 65,
+                "insertedRows": 65,
+                "size": 5552
+            },
+            "wp_wfsnipcache": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wfstatus": {
+                "inaccurateRows": 1813,
+                "insertedRows": 1813,
+                "size": 217788
+            },
+            "wp_wftrafficrates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_api_keys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 2048
+            },
+            "wp_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_order_itemmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_order_items": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_sessions": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 12948
+            },
+            "wp_woocommerce_shipping_zones": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_tax_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wpfm_backup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_wpforms_tasks_meta": {
+                "inaccurateRows": 129,
+                "insertedRows": 129,
+                "size": 11868
+            },
+            "wp_wpie_template": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_yoast_indexable": {
+                "inaccurateRows": 431,
+                "insertedRows": 431,
+                "size": 114560
+            },
+            "wp_yoast_indexable_hierarchy": {
+                "inaccurateRows": 326,
+                "insertedRows": 326,
+                "size": 32446
+            },
+            "wp_yoast_migrations": {
+                "inaccurateRows": 21,
+                "insertedRows": 21,
+                "size": 9720
+            },
+            "wp_yoast_primary_term": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 1024
+            },
+            "wp_yoast_seo_links": {
+                "inaccurateRows": 435,
+                "insertedRows": 435,
+                "size": 71364
+            }
+        },
+        "varLowerCaseTables": "0",
+        "dbEngine": "MariaDB",
+        "version": "10.3.37",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 3,
+        "packageName": "20230126_vendorflock",
+        "packageHash": "c991aee-26074501",
+        "secondaryHash": "13b4aba-26074501"
+    },
+    "fileInfo": {
+        "dirCount": 5566,
+        "fileCount": 29480,
+        "size": 394075648
+    },
+    "wpInfo": {
+        "version": "5.9.5",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/vendorflock\/public_html",
+        "targetPaths": [
+            "\/home\/vendorflock\/public_html"
+        ],
+        "adminUsers": [
+            {
+                "id": "1",
+                "user_login": "admin"
+            },
+            {
+                "id": "357",
+                "user_login": "Demo"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/vendorflock\/public_html\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "a7pbo2limvep0gshn4kab98ablvu5jawwaltbqp8fkj9ktzyslim8bo5xmnfllob",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "4mxgjgktvhs9htdquzgcgbk1l7x5h2fezvrxvik4ah3envgb6dqbqttnf5dddodx",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "oziweivcjc4hgc2kutewbsh73tavdzrwfukpgkosnkmz4o0m9f2cc6lhnmlrcq3e",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "wvolam5qmgn9ou7m1klvmbev1vdrdd3ojkyjt2z7agsi6e3gs6jxo6tgrmktwww4",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "pnzrlbsayzq4t2kxrkf359vqqxwzsdoaa6uwvt9ry0lqd0cizs1p0uozeuonm3rm",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "oehp8i7ea98yibue0i3yqga5jdq4uvpa7bm04orizx7oc1bprudbpnao14uvsycp",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "yzlbqtcxjsbcnjfsbklgfgolojwlaknmhvay8mtb4jxjwdcze7eplumhw2wkvtfp",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "idbunyfqruujmn2hcervtdb8x2vovkz6x774jcabmchvyx5r4zh48lolfvu8kqtw",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/vendorflock\/public_html\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/vendorflock.com\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/vendorflock\/public_html\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/vendorflock.com\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "256M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": true,
+                    "inWpConfig": true
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/vendorflock\/public_html\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/vendorflock\/public_html\/wp-content\/themes\/sweetdate",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/vendorflock\/public_html\/wp-content\/themes\/sweetdate-child",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/vendorflock\/public_html\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/vendorflock.com\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/vendorflock.com",
+                "homeUrl": "https:\/\/vendorflock.com",
+                "loginUrl": "https:\/\/vendorflock.com\/wp-login.php",
+                "contentUrl": "https:\/\/vendorflock.com\/wp-content",
+                "uploadBaseUrl": "https:\/\/vendorflock.com\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/vendorflock.com\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/vendorflock.com\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/vendorflock.com\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/vendorflock\/public_html",
+                    "abs": "\/home\/vendorflock\/public_html",
+                    "wpconfig": "\/home\/vendorflock\/public_html",
+                    "wpcontent": "\/home\/vendorflock\/public_html\/wp-content",
+                    "uploads": "\/home\/vendorflock\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/vendorflock\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/vendorflock\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/vendorflock\/public_html\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/vendorflock\/public_html",
+                    "abs": "\/home\/vendorflock\/public_html",
+                    "wpconfig": "\/home\/vendorflock\/public_html",
+                    "wpcontent": "\/home\/vendorflock\/public_html\/wp-content",
+                    "uploads": "\/home\/vendorflock\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/vendorflock\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/vendorflock\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/vendorflock\/public_html\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "add-to-any\/add-to-any.php": {
+                "slug": "add-to-any\/add-to-any.php",
+                "name": "AddToAny Share Buttons",
+                "version": "1.7.44",
+                "pluginURI": "https:\/\/www.addtoany.com\/",
+                "author": "AddToAny",
+                "authorURI": "https:\/\/www.addtoany.com\/",
+                "description": "Share buttons for your pages including AddToAny's universal sharing button, Facebook, Twitter, LinkedIn, Pinterest, WhatsApp and many more.",
+                "title": "AddToAny Share Buttons",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "akismet\/akismet.php": {
+                "slug": "akismet\/akismet.php",
+                "name": "Akismet Anti-Spam",
+                "version": "4.1.9",
+                "pluginURI": "https:\/\/akismet.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/automattic.com\/wordpress-plugins\/",
+                "description": "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam<\/strong>. It keeps your site protected even while you sleep. To get started: activate the Akismet plugin and then go to your Akismet Settings page to set up your API key.",
+                "title": "Akismet Anti-Spam",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "all-in-one-wp-migration\/all-in-one-wp-migration.php": {
+                "slug": "all-in-one-wp-migration\/all-in-one-wp-migration.php",
+                "name": "All-in-One WP Migration",
+                "version": "7.15",
+                "pluginURI": "https:\/\/servmask.com\/",
+                "author": "ServMask",
+                "authorURI": "https:\/\/servmask.com\/",
+                "description": "Migration tool for all your blog data. Import or Export your blog content with a single click.",
+                "title": "All-in-One WP Migration",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "all-in-one-wp-migration-unlimited-extension\/all-in-one-wp-migration-unlimited-extension.php": {
+                "slug": "all-in-one-wp-migration-unlimited-extension\/all-in-one-wp-migration-unlimited-extension.php",
+                "name": "All-in-One WP Migration Unlimited Extension",
+                "version": "2.34",
+                "pluginURI": "https:\/\/servmask.com\/",
+                "author": "ServMask",
+                "authorURI": "https:\/\/servmask.com\/",
+                "description": "Extension for All in One WP Migration that enables unlimited size exports and imports",
+                "title": "All-in-One WP Migration Unlimited Extension",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "bp-distance-search\/bds-main.php": {
+                "slug": "bp-distance-search\/bds-main.php",
+                "name": "BP Distance Search",
+                "version": "1.3",
+                "pluginURI": "http:\/\/www.dontdream.it\/bp-distance-search\/",
+                "author": "Andrea Tarantini",
+                "authorURI": "http:\/\/www.dontdream.it\/",
+                "description": "Adds a Google Place Autocomplete profile field type for BuddyPress, and enables search by distance with BP Profile Search.",
+                "title": "BP Distance Search",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "bp-force-profile-photo\/bp-force-profile-photo.php": {
+                "slug": "bp-force-profile-photo\/bp-force-profile-photo.php",
+                "name": "BP Force Profile Photo",
+                "version": "1.0.7",
+                "pluginURI": "https:\/\/BuddyDev.com\/plugins\/bp-force-profile-photo\/",
+                "author": "BuddyDev Team",
+                "authorURI": "https:\/\/BuddyDev.com",
+                "description": "Force a User to upload their profile photo(avatar) before they start using the site features.",
+                "title": "BP Force Profile Photo",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "bp-profile-search\/bps-main.php": {
+                "slug": "bp-profile-search\/bps-main.php",
+                "name": "BP Profile Search",
+                "version": "5.4",
+                "pluginURI": "http:\/\/www.dontdream.it\/bp-profile-search\/",
+                "author": "Andrea Tarantini",
+                "authorURI": "http:\/\/www.dontdream.it\/",
+                "description": "Member search and member directories for BuddyPress or the BuddyBoss platform.",
+                "title": "BP Profile Search",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "bp-profile-shortcodes-extra\/loader.php": {
+                "slug": "bp-profile-shortcodes-extra\/loader.php",
+                "name": "BP Profile Shortcodes Extra",
+                "version": "2.5.2",
+                "pluginURI": "http:\/\/buddyuser.com\/plugin-bp-profile-shortcodes-extra\/",
+                "author": "Venutius",
+                "authorURI": "http:\/\/buddyuser.com\/",
+                "description": "Provides shortcodes to display data from a user's buddypress profile as well as groups - Headers, Avatars, Cover-Images, Links, Member Lists etc..",
+                "title": "BP Profile Shortcodes Extra",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "stax-buddy-builder\/loader.php": {
+                "slug": "stax-buddy-builder\/loader.php",
+                "name": "BuddyBuilder - BuddyPress Builder for Elementor",
+                "version": "1.5.0",
+                "pluginURI": "https:\/\/staxwp.com\/go\/buddybuilder\/",
+                "author": "StaxWP",
+                "authorURI": "https:\/\/staxwp.com",
+                "description": "Fully build and customize your BuddyPress community site using Elementor.",
+                "title": "BuddyBuilder - BuddyPress Builder for Elementor",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "buddypress\/bp-loader.php": {
+                "slug": "buddypress\/bp-loader.php",
+                "name": "BuddyPress",
+                "version": "7.2.1",
+                "pluginURI": "https:\/\/buddypress.org\/",
+                "author": "The BuddyPress Community",
+                "authorURI": "https:\/\/buddypress.org\/",
+                "description": "BuddyPress adds community features to WordPress. Member Profiles, Activity Streams, Direct Messaging, Notifications, and more!",
+                "title": "BuddyPress",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "bp-default-data\/bp-default-data.php": {
+                "slug": "bp-default-data\/bp-default-data.php",
+                "name": "BuddyPress Default Data",
+                "version": "1.3.1",
+                "pluginURI": "https:\/\/ovirium.com",
+                "author": "slaFFik",
+                "authorURI": "https:\/\/ovirium.com",
+                "description": "Create lots of users, groups, activity items, messages, profile data - useful for BuddyPress testing purpose.",
+                "title": "BuddyPress Default Data",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "bp-featured-members\/bp-featured-members.php": {
+                "slug": "bp-featured-members\/bp-featured-members.php",
+                "name": "BuddyPress Featured Members",
+                "version": "1.1.1",
+                "pluginURI": "https:\/\/buddydev.com\/plugins\/bp-featured-members\/",
+                "author": "BuddyDev",
+                "authorURI": "https:\/\/buddydev.com",
+                "description": "BuddyPress add-ons which allow site admin to mark members as featured or un-featured.",
+                "title": "BuddyPress Featured Members",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "bp-redirect-to-profile\/bp-redirect-to-profile.php": {
+                "slug": "bp-redirect-to-profile\/bp-redirect-to-profile.php",
+                "name": "BuddyPress Login Redirect to Profile",
+                "version": "1.2.3",
+                "pluginURI": "https:\/\/buddydev.com\/buddypress\/bp-redirect-to-profile-plugin-redirect-users-to-their-profile-on-login-on-buddypress-sites\/",
+                "author": "Brajesh Singh",
+                "authorURI": "https:\/\/buddydev.com",
+                "description": "Redirect Users to their BuddyPress profile when they login.",
+                "title": "BuddyPress Login Redirect to Profile",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "buddypress-profile-completion\/bp-profile-completion.php": {
+                "slug": "buddypress-profile-completion\/bp-profile-completion.php",
+                "name": "BuddyPress Profile Completion",
+                "version": "1.0.8",
+                "pluginURI": "https:\/\/buddydev.com\/introducing-buddypress-user-profile-completion\/",
+                "author": "BuddyDev",
+                "authorURI": "https:\/\/buddydev.com\/",
+                "description": "Force users to complete required fields, photos and cover.",
+                "title": "BuddyPress Profile Completion",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "buddypress-shortcodes\/buddypress-shortcodes.php": {
+                "slug": "buddypress-shortcodes\/buddypress-shortcodes.php",
+                "name": "Buddypress Shortcodes",
+                "version": "1.2",
+                "pluginURI": "http:\/\/wordpress.webimetry.com\/plugins\/buddypress-shortcodes\/",
+                "author": "Webimetry Solutions",
+                "authorURI": "http:\/\/www.webimetry.com\/",
+                "description": "Buddypress Shortcodes plugin adds functionality of Shortcodes to Buddypress.",
+                "title": "Buddypress Shortcodes",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "bp-profile-widget-for-blogs\/bp-profile-for-blogs.php": {
+                "slug": "bp-profile-widget-for-blogs\/bp-profile-for-blogs.php",
+                "name": "BuddyPress User Info Widget",
+                "version": "1.2.9",
+                "pluginURI": "https:\/\/buddydev.com\/buddypress\/buddypress-profile-widget-for-blogs\/",
+                "author": "Brajesh Singh( BuddyDev.com )",
+                "authorURI": "https:\/\/buddydev.com",
+                "description": "Let Blog Admins show all\/some of their BuddyPress profile fields on their blogs as widget",
+                "title": "BuddyPress User Info Widget",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "classic-editor\/classic-editor.php": {
+                "slug": "classic-editor\/classic-editor.php",
+                "name": "Classic Editor",
+                "version": "1.6",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/classic-editor\/",
+                "author": "WordPress Contributors",
+                "authorURI": "https:\/\/github.com\/WordPress\/classic-editor\/",
+                "description": "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen.",
+                "title": "Classic Editor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "classic-widgets\/classic-widgets.php": {
+                "slug": "classic-widgets\/classic-widgets.php",
+                "name": "Classic Widgets",
+                "version": "0.3",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/classic-widgets\/",
+                "author": "WordPress Contributors",
+                "authorURI": "https:\/\/github.com\/WordPress\/classic-widgets\/",
+                "description": "Enables the classic widgets settings screens in Appearance - Widgets and the Customizer. Disables the block editor from managing widgets.",
+                "title": "Classic Widgets",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "conditional-profile-fields-for-buddypress\/bp-conditional-profile-fields.php": {
+                "slug": "conditional-profile-fields-for-buddypress\/bp-conditional-profile-fields.php",
+                "name": "Conditional Profile Fields for BuddyPress",
+                "version": "1.2.5",
+                "pluginURI": "https:\/\/buddydev.com\/plugins\/conditional-profile-fields-for-buddypress\/",
+                "author": "BuddyDev",
+                "authorURI": "https:\/\/buddydev.com",
+                "description": "Show\/Hide profile fields depending on user data matching.",
+                "title": "Conditional Profile Fields for BuddyPress",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicate-page\/duplicatepage.php": {
+                "slug": "duplicate-page\/duplicatepage.php",
+                "name": "Duplicate Page",
+                "version": "4.4.8",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/duplicate-page\/",
+                "author": "mndpsingh287",
+                "authorURI": "https:\/\/profiles.wordpress.org\/mndpsingh287\/",
+                "description": "Duplicate Posts, Pages and Custom Posts using single click.",
+                "title": "Duplicate Page",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.1",
+                "pluginURI": "https:\/\/snapcreek.com\/duplicator\/duplicator-free\/",
+                "author": "Snap Creek",
+                "authorURI": "http:\/\/www.snapcreek.com\/duplicator\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "stops-core-theme-and-plugin-updates\/main.php": {
+                "slug": "stops-core-theme-and-plugin-updates\/main.php",
+                "name": "Easy Updates Manager",
+                "version": "9.0.8",
+                "pluginURI": "https:\/\/easyupdatesmanager.com",
+                "author": "Easy Updates Manager Team",
+                "authorURI": "https:\/\/easyupdatesmanager.com",
+                "description": "Manage and disable WordPress updates, including core, plugin, theme, and automatic updates - Works with Multisite and has built-in logging features.",
+                "title": "Easy Updates Manager",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.1.4",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor-postslist\/postslist.php": {
+                "slug": "elementor-postslist\/postslist.php",
+                "name": "Elementor Posts List",
+                "version": "1.0.0",
+                "pluginURI": "",
+                "author": "DEXDEL TEAM",
+                "authorURI": "",
+                "description": "Element plugin for posts by category.",
+                "title": "Elementor Posts List",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "email-subscribers\/email-subscribers.php": {
+                "slug": "email-subscribers\/email-subscribers.php",
+                "name": "Email Subscribers & Newsletters",
+                "version": "5.3.9",
+                "pluginURI": "https:\/\/www.icegram.com\/",
+                "author": "Icegram",
+                "authorURI": "https:\/\/www.icegram.com\/",
+                "description": "Add subscription forms on website, send HTML newsletters & automatically notify subscribers about new blog posts once it is published.",
+                "title": "Email Subscribers & Newsletters",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "envato-market\/envato-market.php": {
+                "slug": "envato-market\/envato-market.php",
+                "name": "Envato Market",
+                "version": "2.0.7",
+                "pluginURI": "https:\/\/envato.com\/market-plugin\/",
+                "author": "Envato",
+                "authorURI": "https:\/\/envato.com",
+                "description": "WordPress Theme & Plugin management for the Envato Market.",
+                "title": "Envato Market",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "cookie-law-info\/cookie-law-info.php": {
+                "slug": "cookie-law-info\/cookie-law-info.php",
+                "name": "GDPR Cookie Consent",
+                "version": "2.0.1",
+                "pluginURI": "https:\/\/www.webtoffee.com\/product\/gdpr-cookie-consent\/",
+                "author": "WebToffee",
+                "authorURI": "http:\/\/cookielawinfo.com\/",
+                "description": "A simple way to show your website complies with the EU Cookie Law \/ GDPR.",
+                "title": "GDPR Cookie Consent",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "google-analytics-for-wordpress\/googleanalytics.php": {
+                "slug": "google-analytics-for-wordpress\/googleanalytics.php",
+                "name": "Google Analytics for WordPress by MonsterInsights",
+                "version": "7.17.0",
+                "pluginURI": "https:\/\/www.monsterinsights.com\/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=pluginurl&utm_content=7%2E0%2E0",
+                "author": "MonsterInsights",
+                "authorURI": "https:\/\/www.monsterinsights.com\/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=authoruri&utm_content=7%2E0%2E0",
+                "description": "The best Google Analytics plugin for WordPress. See how visitors find and use your website, so you can keep them coming back.",
+                "title": "Google Analytics for WordPress by MonsterInsights",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "leadin\/leadin.php": {
+                "slug": "leadin\/leadin.php",
+                "name": "HubSpot All-In-One Marketing - Forms, Popups, Live Chat",
+                "version": "9.0.123",
+                "pluginURI": "http:\/\/www.hubspot.com\/integrations\/wordpress",
+                "author": "HubSpot",
+                "authorURI": "http:\/\/hubspot.com\/products\/wordpress",
+                "description": "HubSpot\u2019s official WordPress plugin allows you to add forms, popups, and live chat to your website and integrate with the best WordPress CRM.",
+                "title": "HubSpot All-In-One Marketing - Forms, Popups, Live Chat",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "jetpack\/jetpack.php": {
+                "slug": "jetpack\/jetpack.php",
+                "name": "Jetpack by WordPress.com",
+                "version": "9.6",
+                "pluginURI": "https:\/\/jetpack.com",
+                "author": "Automattic",
+                "authorURI": "https:\/\/jetpack.com",
+                "description": "Bring the power of the WordPress.com cloud to your self-hosted WordPress. Jetpack enables you to connect your blog to a WordPress.com account to use the powerful features normally only available to WordPress.com users.",
+                "title": "Jetpack by WordPress.com",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "mobile-menu\/mobmenu.php": {
+                "slug": "mobile-menu\/mobmenu.php",
+                "name": "Mobile Menu",
+                "version": "2.8.2.7",
+                "pluginURI": "https:\/\/www.wpmobilemenu.com\/",
+                "author": "Freshlight Lab",
+                "authorURI": "https:\/\/www.freshlightlab.com\/",
+                "description": "An easy to use WordPress responsive mobile menu. Keep your mobile visitors engaged.",
+                "title": "Mobile Menu",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "mutual-buddies\/buddypress-mutual-friends.php": {
+                "slug": "mutual-buddies\/buddypress-mutual-friends.php",
+                "name": "Mutual Buddies",
+                "version": "2.1.1",
+                "pluginURI": "",
+                "author": "Paresh Radadiya",
+                "authorURI": "https:\/\/about.me\/paresh.radadiya",
+                "description": "Display a list of mutual friends on a buddypress member\u2019s profile and member list page similar to facebook",
+                "title": "Mutual Buddies",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "optinmonster\/optin-monster-wp-api.php": {
+                "slug": "optinmonster\/optin-monster-wp-api.php",
+                "name": "OptinMonster",
+                "version": "2.3.1",
+                "pluginURI": "https:\/\/optinmonster.com",
+                "author": "OptinMonster Team",
+                "authorURI": "https:\/\/optinmonster.com",
+                "description": "OptinMonster is the best WordPress popup plugin that helps you grow your email list and sales with email popups, exit intent popups, floating bars and more!",
+                "title": "OptinMonster",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "paid-memberships-pro\/paid-memberships-pro.php": {
+                "slug": "paid-memberships-pro\/paid-memberships-pro.php",
+                "name": "Paid Memberships Pro",
+                "version": "2.5.7",
+                "pluginURI": "https:\/\/www.paidmembershipspro.com",
+                "author": "Stranger Studios",
+                "authorURI": "https:\/\/www.strangerstudios.com",
+                "description": "The most complete member management and membership subscriptions plugin for WordPress.",
+                "title": "Paid Memberships Pro",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "pmpro-buddypress\/pmpro-buddypress.php": {
+                "slug": "pmpro-buddypress\/pmpro-buddypress.php",
+                "name": "Paid Memberships Pro - BuddyPress Add On",
+                "version": "1.2.6",
+                "pluginURI": "https:\/\/www.paidmembershipspro.com\/add-ons\/buddypress-integration",
+                "author": "Paid Memberships Pro",
+                "authorURI": "https:\/\/www.paidmembershipspro.com",
+                "description": "Manage access to your BuddyPress Community using Paid Memberships Pro.",
+                "title": "Paid Memberships Pro - BuddyPress Add On",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "pmpro-subscription-delays\/pmpro-subscription-delays.php": {
+                "slug": "pmpro-subscription-delays\/pmpro-subscription-delays.php",
+                "name": "Paid Memberships Pro - Subscription Delays Add On",
+                "version": "0.5.5",
+                "pluginURI": "https:\/\/www.paidmembershipspro.com\/add-ons\/subscription-delays\/",
+                "author": "Paid Memberships Pro",
+                "authorURI": "https:\/\/www.paidmembershipspro.com",
+                "description": "Adds a field to delay the start of a subscription for membership levels and discount codes for variable-length trials.",
+                "title": "Paid Memberships Pro - Subscription Delays Add On",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "really-simple-ssl\/rlrsssl-really-simple-ssl.php": {
+                "slug": "really-simple-ssl\/rlrsssl-really-simple-ssl.php",
+                "name": "Really Simple SSL",
+                "version": "4.0.13",
+                "pluginURI": "https:\/\/really-simple-ssl.com",
+                "author": "Really Simple Plugins",
+                "authorURI": "https:\/\/really-simple-plugins.com",
+                "description": "Lightweight plugin without any setup to make your site SSL proof",
+                "title": "Really Simple SSL",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "redirection\/redirection.php": {
+                "slug": "redirection\/redirection.php",
+                "name": "Redirection",
+                "version": "5.1",
+                "pluginURI": "https:\/\/redirection.me\/",
+                "author": "John Godley",
+                "authorURI": "",
+                "description": "Manage all your 301 redirects and monitor 404 errors",
+                "title": "Redirection",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "royal-elementor-addons\/wpr-addons.php": {
+                "slug": "royal-elementor-addons\/wpr-addons.php",
+                "name": "Royal Elementor Addons",
+                "version": "1.3.36",
+                "pluginURI": "https:\/\/royal-elementor-addons.com\/",
+                "author": "WP Royal",
+                "authorURI": "https:\/\/royal-elementor-addons.com\/",
+                "description": "The only plugin you need for Elementor page builder.",
+                "title": "Royal Elementor Addons",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "buddypress-media\/index.php": {
+                "slug": "buddypress-media\/index.php",
+                "name": "rtMedia for WordPress, BuddyPress and bbPress",
+                "version": "4.6.6",
+                "pluginURI": "https:\/\/rtmedia.io\/?utm_source=dashboard&utm_medium=plugin&utm_campaign=buddypress-media",
+                "author": "rtCamp",
+                "authorURI": "http:\/\/rtcamp.com\/?utm_source=dashboard&utm_medium=plugin&utm_campaign=buddypress-media",
+                "description": "This plugin adds missing media rich features like photos, videos and audio uploading to BuddyPress which are essential if you are building social network, seriously!",
+                "title": "rtMedia for WordPress, BuddyPress and bbPress",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "search-filter\/search-filter.php": {
+                "slug": "search-filter\/search-filter.php",
+                "name": "Search & Filter",
+                "version": "1.2.16",
+                "pluginURI": "https:\/\/free.searchandfilter.com\/",
+                "author": "Code Amp",
+                "authorURI": "https:\/\/codeamp.com",
+                "description": "Search and Filtering system for Pages, Posts, Categories, Tags and Taxonomies",
+                "title": "Search & Filter",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "sendpress\/sendpress.php": {
+                "slug": "sendpress\/sendpress.php",
+                "name": "SendPress Newsletters",
+                "version": "1.22.3.31",
+                "pluginURI": "https:\/\/sendpress.com",
+                "author": "SendPress",
+                "authorURI": "https:\/\/sendpress.com\/",
+                "description": "Easy to manage Newsletters for WordPress.",
+                "title": "SendPress Newsletters",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "revslider\/revslider.php": {
+                "slug": "revslider\/revslider.php",
+                "name": "Slider Revolution",
+                "version": "6.1.2",
+                "pluginURI": "https:\/\/revolution.themepunch.com\/",
+                "author": "ThemePunch",
+                "authorURI": "https:\/\/themepunch.com\/",
+                "description": "Slider Revolution - Premium responsive slider",
+                "title": "Slider Revolution",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "sq-sidebar-generator\/loader.php": {
+                "slug": "sq-sidebar-generator\/loader.php",
+                "name": "SQ Sidebar Generator",
+                "version": "1.2.0",
+                "pluginURI": "http:\/\/seventhqueen.com",
+                "author": "SeventhQueen",
+                "authorURI": "",
+                "description": "This plugin generates as many sidebars as you need. Then allows you to place them on any page you wish.",
+                "title": "SQ Sidebar Generator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "strong-testimonials\/strong-testimonials.php": {
+                "slug": "strong-testimonials\/strong-testimonials.php",
+                "name": "Strong Testimonials",
+                "version": "2.51.8",
+                "pluginURI": "https:\/\/strongtestimonials.com",
+                "author": "WPChill",
+                "authorURI": "https:\/\/wpchill.com\/",
+                "description": "Collect and display your testimonials or reviews.",
+                "title": "Strong Testimonials",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "sweetdate-core\/loader.php": {
+                "slug": "sweetdate-core\/loader.php",
+                "name": "SweetDate Core",
+                "version": "1.1.0",
+                "pluginURI": "",
+                "author": "SeventhQueen.com",
+                "authorURI": "https:\/\/seventhqueen.com",
+                "description": "Adds core features to SweetDate theme.",
+                "title": "SweetDate Core",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "w3-total-cache\/w3-total-cache.php": {
+                "slug": "w3-total-cache\/w3-total-cache.php",
+                "name": "W3 Total Cache",
+                "version": "2.1.2",
+                "pluginURI": "https:\/\/www.boldgrid.com\/totalcache\/",
+                "author": "BoldGrid",
+                "authorURI": "https:\/\/www.boldgrid.com\/",
+                "description": "The highest rated and most complete WordPress performance plugin. Dramatically improve the speed and user experience of your site. Add browser, page, object and database caching as well as minify and content delivery network (CDN) to WordPress.",
+                "title": "W3 Total Cache",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce\/woocommerce.php": {
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "6.9.4",
+                "pluginURI": "https:\/\/woocommerce.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woocommerce.com",
+                "description": "An eCommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wpforms-lite\/wpforms.php": {
+                "slug": "wpforms-lite\/wpforms.php",
+                "name": "WPForms Lite",
+                "version": "1.6.6",
+                "pluginURI": "https:\/\/wpforms.com",
+                "author": "WPForms",
+                "authorURI": "https:\/\/wpforms.com",
+                "description": "Beginner friendly WordPress contact form plugin. Use our Drag & Drop form builder to create your WordPress forms.",
+                "title": "WPForms Lite",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wordpress-seo\/wp-seo.php": {
+                "slug": "wordpress-seo\/wp-seo.php",
+                "name": "Yoast SEO",
+                "version": "16.1.1",
+                "pluginURI": "https:\/\/yoa.st\/1uj",
+                "author": "Team Yoast",
+                "authorURI": "https:\/\/yoa.st\/1uk",
+                "description": "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.",
+                "title": "Yoast SEO",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "advanced-cache.php": {
+                "slug": "advanced-cache.php",
+                "name": "advanced-cache.php",
+                "version": "",
+                "pluginURI": "",
+                "author": "",
+                "authorURI": "",
+                "description": "",
+                "title": "",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": true
+            },
+            "db.php": {
+                "slug": "db.php",
+                "name": "db.php",
+                "version": "",
+                "pluginURI": "",
+                "author": "",
+                "authorURI": "",
+                "description": "",
+                "title": "",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": true
+            }
+        },
+        "themes": {
+            "sweetdate-child": {
+                "slug": "sweetdate-child",
+                "themeName": "Sweetdate Child",
+                "version": "3.5.0",
+                "themeURI": "",
+                "parentTheme": "sweetdate",
+                "template": "sweetdate",
+                "stylesheet": "sweetdate-child",
+                "description": "This is a child theme of Sweetdate.",
+                "author": "<a href=\"http:\/\/themeforest.net\/user\/SeventhQueen\">SeventhQueen<\/a>",
+                "authorURI": "",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "sweetdate": {
+                "slug": "sweetdate",
+                "themeName": "Sweetdate",
+                "version": "3.5.0",
+                "themeURI": "https:\/\/1.envato.market\/qqzJy",
+                "parentTheme": false,
+                "template": "sweetdate",
+                "stylesheet": "sweetdate",
+                "description": "More than a WordPress dating theme",
+                "author": "SeventhQueen",
+                "authorURI": "http:\/\/themeforest.net\/user\/SeventhQueen",
+                "tags": [
+                    "dating",
+                    "clean",
+                    "responsive",
+                    "creative",
+                    "minimal",
+                    "modern",
+                    "landing page",
+                    "social"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.1",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            }
+        }
+    },
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Vendor Flock"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20230126_vendorflock_c991aee5fa7bab1f5239_20230126074501_installer-backup.php",
+    "package_name": "20230126_vendorflock_c991aee5fa7bab1f5239_20230126074501_archive.zip",
+    "package_hash": "c991aee-26074501",
+    "package_notes": ""
+}
